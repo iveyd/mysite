@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>David_Ivey-Lab4-RSS</title>
+	<subtitle>This is an RSS feed</subtitle>
+	<link href="https://afsws.rpi.edu/AFS/home/16/iveyd/public_html/iit/blogs/"/>
+	<link href="https://afsws.rpi.edu/AFS/home/16/iveyd/public_html/iit/blogs/" rel="self"/>
+	<updated>2016-10-03T14:01:26-04:00</updated>
+	<author>
+		<name>David Ivey</name>
+		<email>iveyd@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>Manage the Context of Your Work Space to Resist Distraction</title>
+		<link href="http://lifehacker.com/manage-the-context-of-your-work-space-to-resist-distrac-1787333859/"/>
+	  	<updated>2016-10-02T19:00:00Z</updated>
+	</entry>
+
+	<entry>
+		<title>Facebook launches Marketplace to let you buy and sell entrys with nearby users</title>
+		<link href="http://www.theverge.com/2016/10/3/13145242/facebook-marketplace-launch-buy-sell-ebay-craigslist-amazon"/>
+		<summary type="html"><![CDATA[
+			<img alt="" src="https://cdn0.vox-cdn.com/thumbor/5iEISdKJPtmCXm6LFISEf8JCRyY=/105x170:3143x2195/1310x873/cdn0.vox-cdn.com/uploads/chorus_image/image/51163273/facebook-marketplace-screenshot-1.0.png" />
+			<p id="CvSFYP">
+				Facebook is getting more deeply involved in e-commerce with the launch of Marketplace, its new user-to-user exchange for buying and selling goods with others in your community. The company says Marketplace — which launches this week in the US, UK, Australia, and New Zealand — is an evolution of an existing behavior on the social network. Up to 450 million people already use Facebook to buy and sell used goods every month, mainly through its groups feature, according to project manager Bowen Pan. With Marketplace, Facebook is now giving users a more formal process to conduct these exchanges.
+			</p>
+			<p id="wk5B1i">
+				The icon for Marketplace should over the next few days replace the Messenger icon in the center of the bottom row on Facebook’s mobile app. Tapping...
+			</p>
+			<p>
+				<a href="http://www.theverge.com/2016/10/3/13145242/facebook-marketplace-launch-buy-sell-ebay-craigslist-amazon">Continue reading&hellip;
+				</a>
+			</p>
+			]]>
+		</summary>
+	 	<updated>2016-10-03T10:22:00Z</updated>
+	</entry>
+
+	<entry>
+		<title>PRESENTING THE INTERNET OF TRASH CANS!</title>
+		<link href="http://hackaday.com/2016/03/17/presenting-the-internet-of-trash-cans/"/>
+		<summary type="html"><![CDATA[<p>Well, if this trash can has the feature to email or call to any garbage company to empty it.</p>]]></summary>
+	  	<updated>2016-03-17T00:45:00Z</updated>
+	</entry>
+
+	<entry>
+		<title>USB-C's new audio spec could get rid of your headphone jack</title>
+		<link href="https://www.engadget.com/2016/10/01/usb-c-audio-specification/"/>
+	  	<updated>2016-10-01T00:45:00Z</updated>
+	</entry>
+
+	<entry>
+		<title>The Internet of Things is yet to arrive at the starting blocks of innovation</title>
+		<link href="https://gigaom.com/2016/10/03/the-internet-of-things-is-yet-to-arrive-at-the-starting-blocks-of-innovation/"/>
+		<summary type="html">
+			<![CDATA[<p>“We are but puny dwarfs perched on the shoulders of giants. We see more and farther… not because we have keener vision or greater height, but because we are lifted up and borne aloft on their gigantic structure.” Bernard of Chartres, died c.1124 (<a href="https://books.google.co.uk/books?id=bPVYpE04y0AC&amp;pg=PA314&amp;dq=bernard+chartres++Patrologia+Latina+199&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjDz_KQqL7PAhXEA8AKHczoAqoQ6AEIPjAG#v=onepage&amp;q=bernard%20chartres%20&amp;f=false">via</a> John of Salisbury, 1159)</p>
+			<p>It may seem strange to trace the origins of the digital age back 900 years, but humanist and philosopher Bernard of Chartres nails it. Not only did he foresee the main tenet of the Platform Economy but he offered a useful <a href="https://www.britannica.com/biography/Bernard-de-Chartres">framing</a> of the potential of the Internet of Things, based on the relationship between eternal ideas and material objects.</p>
+			<p>Stretching a point? D’ya think? It’s worth reviewing how far we have got with the with the <a href="https://insights.samsung.com/2015/10/29/understanding-how-the-internet-of-things-will-transform-business-whitepaper/">IoT so far</a>. While we’ve seen a considerable amount of effort to standardise in the platform level, we are still a long way from providing the ‘giants’ upon which the broader section of us lowly creatures can innovate.</p>
+			<p>That’s not to understate the considerable effort that has already been made. In the Platform as a Service layer, Amazon <a href="https://aws.amazon.com/iot/">AWS IoT</a>, <a href="http://www.ibm.com/internet-of-things/iot-solutions/watson-iot-platform/">IBM Watson</a> and Microsoft&#8217;s <a href="https://www.microsoft.com/en-gb/cloud-platform/internet-of-things-azure-iot-suite">Azure IoT Suite</a>, <a href="https://www.zebra.com/gb/en.html">Zebra</a> and a host of smaller players such as <a href="https://www.thingworx.com/platforms/">Thingworx</a> and <a href="https://evrythng.com/">Evrythng</a> offer massively scalable and open integration, streaming, storage and analytics capabilities.</p>
+			<p>In industry, the likes of Fujitsu (with <a href="https://www.globeranger.com/">GlobeRanger</a>)  and <a href="https://www.bosch-si.com/products/bosch-iot-suite/iot-platform/benefits.html">Bosch</a> have things going on; meanwhile Intel has an IoT Platform <a href="http://www.intel.com/content/www/us/en/internet-of-things/white-papers/iot-platform-reference-architecture-paper.html">reference architecture</a> to which a number of vendors have subscribed, including GE with its <a href="https://www.predix.com/news-events/featured-stories/ge-partners-intel-take-industrial-iot-next-level">Predix</a> industrial IoT framework and services. How easy and unfair it is, one might say, to suggest that such efforts are not already substantial.</p>
+			<p>But while such platforms and standardisation efforts are taking us way beyond where we have been, they are yet to arrive at a point where the real innovation explosion will take place. Solutions are currently domain-specific, frequently proprietary and a long way from the adoption levels seen by, say, social media.</p>
+			<p>Perhaps the closest is <a href="https://www.xively.com/">Xively</a> or even <a href="https://ifttt.com/">IFTTT</a>, but none have the immediacy of their social networking. In wearables for example, Garmin, Strava et al continue to fight their corners. Apple just added a ‘home&#8217; icon to its mobile device screens, but it may have left many scratching their heads as to what it was for (as did my wife). The challenges currently <a href="https://www.technologyreview.com/s/601639/nests-biggest-problem-wasnt-tony-fadell/">faced</a> by Nest reflect the ‘solution without a problem’ stage we are in.</p>
+			<p>This isn’t a complaint. If I had a concern at all, it’s whether we are prepared for the wave of joined-up connectedness that will inevitably hit. Today’s &#8216;advances&#8217; will be seen as a world-spanning gestation, a global laying of smart infrastructure upon which the next two decades of innovation will be built.</p>
+			<p>No user-facing ‘smart’ portal has been adopted to any extent — while some (such as <a href="https://gigaom.com/2016/09/12/fluke-briefing-report-closing-the-gap-between-things-and-reality/">Fluke</a>) have mentioned a ‘Facebook of Things’, we are yet to see a billion-user go-to page to access and control our smart devices, either in work or at home. But we will, as sure as birth follows pregnancy.</p>
+			<p>Of course, this suggests that such an opportunity is sitting on the table. Why the Googles, Facebooks, Microsoft and indeed, Alibabas aren’t ripping their gloves off and fighting tooth and nail to gain this position is quite astonishing. Once they do (and are joined by whichever next-upstart-to-become-a-household-name in the process), we will enter a new phase of innovation, thrilling and downright scary in equal measure. Lives will be saved, even as the rights of individuals significantly undermined.</p>
+			<p>For we are but puny, in the face of such developments. But we will see more, and farther than the giants themselves. The relationship between eternal ideas and material objects is about to get a significant run for its money.</p>]]>
+			</summary>
+		<updated>2016-10-03T16:16:02Z</updated>
+	</entry>
+</feed>
+
+
+
