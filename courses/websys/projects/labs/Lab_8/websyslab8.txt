@@ -1,0 +1,253 @@
+David Ivey iveyd
+
+
+===Database websyslab8
+
+== Table structure for table courses
+
+|------
+|Column|Type|Null|Default
+|------
+|//**crn**//|int(11)|No|
+|prefix|varchar(4)|No|
+|number|smallint(4)|No|
+|title|varchar(255)|No|
+|section|int(2)|No|
+|year|int(4)|No|
+== Dumping data for table courses
+
+|37316|ITWS|4300|Business Issues for Engineers and Scientists|1|2016
+|37551|ITWS|4100|Information Technology and Web Science Capstone|1|2016
+|37552|ITWS|4980|Special Projects|1|2016
+|37556|ITWS|4370|Information System Security|1|2016
+|37866|ITWS|4400|X-Informatics|1|2016
+|38132|ITWS|4500|Web Science Systems Development|1|2016
+|38198|ITWS|4960|Data and Society|1|2016
+|38740|ITWS|4600|Data Analytics|1|2016
+|38742|ITWS|6700|Software Development|1|2016
+|39066|ITWS|1220|IT &amp; Society|1|2016
+== Table structure for table grades
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|crn|int(11)|No|
+|rin|int(11)|No|
+|grade|int(3)|No|
+== Dumping data for table grades
+
+|1|37316|11345679|60
+|2|37551|14524657|84
+|3|37551|12134568|66
+|4|37556|14524657|35
+|5|38198|12345670|87
+|6|37552|12345670|24
+|7|37316|15426527|100
+|8|37552|18767265|98
+|9|37866|11345789|86
+|10|37551|18767265|79
+|11|37866|65654356|92
+|12|37316|11345679|54
+|13|37556|87876765|13
+|14|38198|12134568|87
+|15|38742|87876765|76
+|16|37552|87876765|64
+|17|37552|19898765|86
+|18|37866|87876765|98
+|19|37316|12345670|54
+|20|38132|11345679|78
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(100)|No|
+|city|varchar(100)|No|
+|state|varchar(50)|No|
+|zip|int(5)|No|
+== Dumping data for table students
+
+|11345679|smithj5|john|smith|johnny|1132412345|lol|lol|NY|12091
+|11345789|freemj|john|freeman|Morgan|1112121212|lol|lol|NY|12091
+|12134568|aaaaaj|jjjjjjj|aaaaaaa|aj|1111111111|lol|lol|NY|12091
+|12345670|doej3|jane|doe|jay|1122222222|lol|lol|NY|12091
+|14524657|lovek|Kerry|love|k-love|1121212121|lol|lol|NY|12091
+|15426527|pecnir|ryan|pecnil|RP|1112221112|lol|lol|NY|12091
+|18767265|manisp|perry|manis|per|1111221122|lol|lol|NY|12091
+|19898765|kimx|xiowei|kim|Sherry|112211112|lol|lol|NY|12091
+|65654356|leej|james|lee| |111122221|lol|lol|NY|12091
+|87876765|yuq|Qiao|yu|None|1121112221|lol|lol|NY|12091
+
+
+
+
+ODER BY RIN:
+
+SELECT * FROM `students` WHERE 1 ORDER BY `rin`
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(100)|No|
+|city|varchar(100)|No|
+|state|varchar(50)|No|
+|zip|int(5)|No|
+== Dumping data for table students
+
+|11345679|smithj5|john|smith|johnny|1132412345|lol|lol|NY|12091
+|11345789|freemj|john|freeman|Morgan|1112121212|lol|lol|NY|12091
+|12134568|aaaaaj|jjjjjjj|aaaaaaa|aj|1111111111|lol|lol|NY|12091
+|12345670|doej3|jane|doe|jay|1122222222|lol|lol|NY|12091
+|14524657|lovek|Kerry|love|k-love|1121212121|lol|lol|NY|12091
+|15426527|pecnir|ryan|pecnil|RP|1112221112|lol|lol|NY|12091
+|18767265|manisp|perry|manis|per|1111221122|lol|lol|NY|12091
+|19898765|kimx|xiowei|kim|Sherry|112211112|lol|lol|NY|12091
+|65654356|leej|james|lee| |111122221|lol|lol|NY|12091
+|87876765|yuq|Qiao|yu|None|1121112221|lol|lol|NY|12091
+
+
+ODER BY LASTNAME:
+
+SELECT * FROM `students` WHERE 1 ORDER BY `lastName`
+
+===Database websyslab8
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(100)|No|
+|city|varchar(100)|No|
+|state|varchar(50)|No|
+|zip|int(5)|No|
+== Dumping data for table students
+
+|11345679|smithj5|john|smith|johnny|1132412345|lol|lol|NY|12091
+|11345789|freemj|john|freeman|Morgan|1112121212|lol|lol|NY|12091
+|12134568|aaaaaj|jjjjjjj|aaaaaaa|aj|1111111111|lol|lol|NY|12091
+|12345670|doej3|jane|doe|jay|1122222222|lol|lol|NY|12091
+|14524657|lovek|Kerry|love|k-love|1121212121|lol|lol|NY|12091
+|15426527|pecnir|ryan|pecnil|RP|1112221112|lol|lol|NY|12091
+|18767265|manisp|perry|manis|per|1111221122|lol|lol|NY|12091
+|19898765|kimx|xiowei|kim|Sherry|112211112|lol|lol|NY|12091
+|65654356|leej|james|lee| |111122221|lol|lol|NY|12091
+|87876765|yuq|Qiao|yu|None|1121112221|lol|lol|NY|12091
+
+
+
+
+ORDER BY rcsID:
+
+SELECT * FROM `students` WHERE 1 ORDER BY `rcsID`
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(100)|No|
+|city|varchar(100)|No|
+|state|varchar(50)|No|
+|zip|int(5)|No|
+== Dumping data for table students
+
+|11345679|smithj5|john|smith|johnny|1132412345|lol|lol|NY|12091
+|11345789|freemj|john|freeman|Morgan|1112121212|lol|lol|NY|12091
+|12134568|aaaaaj|jjjjjjj|aaaaaaa|aj|1111111111|lol|lol|NY|12091
+|12345670|doej3|jane|doe|jay|1122222222|lol|lol|NY|12091
+|14524657|lovek|Kerry|love|k-love|1121212121|lol|lol|NY|12091
+|15426527|pecnir|ryan|pecnil|RP|1112221112|lol|lol|NY|12091
+|18767265|manisp|perry|manis|per|1111221122|lol|lol|NY|12091
+|19898765|kimx|xiowei|kim|Sherry|112211112|lol|lol|NY|12091
+|65654356|leej|james|lee| |111122221|lol|lol|NY|12091
+|87876765|yuq|Qiao|yu|None|1121112221|lol|lol|NY|12091
+
+OREDER BY firstName:
+
+SELECT * FROM `students` WHERE 1 ORDER BY `firstName`
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(100)|No|
+|city|varchar(100)|No|
+|state|varchar(50)|No|
+|zip|int(5)|No|
+== Dumping data for table students
+
+|11345679|smithj5|john|smith|johnny|1132412345|lol|lol|NY|12091
+|11345789|freemj|john|freeman|Morgan|1112121212|lol|lol|NY|12091
+|12134568|aaaaaj|jjjjjjj|aaaaaaa|aj|1111111111|lol|lol|NY|12091
+|12345670|doej3|jane|doe|jay|1122222222|lol|lol|NY|12091
+|14524657|lovek|Kerry|love|k-love|1121212121|lol|lol|NY|12091
+|15426527|pecnir|ryan|pecnil|RP|1112221112|lol|lol|NY|12091
+|18767265|manisp|perry|manis|per|1111221122|lol|lol|NY|12091
+|19898765|kimx|xiowei|kim|Sherry|112211112|lol|lol|NY|12091
+|65654356|leej|james|lee| |111122221|lol|lol|NY|12091
+|87876765|yuq|Qiao|yu|None|1121112221|lol|lol|NY|12091
+
+
+
+
+List all students first name and last name if their grade in any course was higher than a 90 (make sure at least one person fits the criterion:
+
+SELECT `firstName`, `lastName` FROM `students` WHERE `rin` IN (SELECT `rin` FROM `grades` WHERE (`grade` > 90))
+
+
+|------
+|Column|Type|Null|Default
+|------
+|firstName|varchar(100)|No|
+|lastName|varchar(100)|No|
+
+|ryan|pecnil
+|perry|manis
+|james|lee
+|Qiao|yu
+
+
+list out the average grade in the second course:
+
+SELECT AVG(`grade`) FROM `grades` WHERE `crn` = (SELECT `crn` FROM `courses` WHERE 1 ORDER BY `crn` LIMIT 1 OFFSET 1)
+
+AVG(`grade`)
+|76.3333
+
+
+
+list out the number of students:
+
+SELECT COUNT(`rin`) FROM `students` WHERE 1
+
+COUNT(`rin`)
+|10

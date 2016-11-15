@@ -1,0 +1,14 @@
+## 127.0.0.1 websys
+<VirtualHost websys:80>
+
+  ServerName websys:80
+
+  DocumentRoot "C:\xampp\htdocs\websys"
+
+  <Directory "C:\xampp\htdocs\websys">
+
+    Require all granted
+
+  </Directory>
+
+</VirtualHost>

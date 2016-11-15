@@ -1,0 +1,22 @@
+div {
+	padding: .5em;
+	margin-bottom: 1em;
+}
+img {
+	width: 80px;
+	height: 80px;
+}
+.title {
+	color: green;
+	font-size: 90%;
+}
+.artist {
+	color: blue;
+}
+.date {
+	margin-bottom: 0;
+}
+.album {
+	font-size: 80%;
+	font-style: italic;
+}

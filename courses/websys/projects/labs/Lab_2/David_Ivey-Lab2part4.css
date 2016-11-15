@@ -1,0 +1,60 @@
+MySongs {
+	font-family: "Times New Roman", times, sans-serif;
+	white-space: normal;
+}
+song {
+	float: left;
+    clear: left;
+	margin-bottom: 1.25em;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 800px;
+}
+title {
+	float: left;
+    clear: left;
+	margin-bottom: .25em;
+	color: green;
+}
+artist {
+	float: left;
+    clear: left;
+    font-size: 140%;
+	margin-bottom: .25em;
+	color: blue;
+}
+album {
+	float: left;
+    clear: left;
+    font-size: 80%;
+	margin-bottom: .25em;
+	font-style: italic;
+}
+link {
+	float: left;
+    clear: left;
+    font-size: 80%;
+	margin-bottom: .25em;
+}
+cover {
+	float: left;
+    clear: left;
+    font-size: 80%;
+	margin-bottom: .25em;
+}
+releasedate {
+	float: left;
+    clear: left;
+    font-size: 80%;
+	margin-bottom: .25em;
+}
+genre {
+	float: left;
+    clear: left;
+    font-size: 80%;
+	margin-bottom: .25em;
+}
+img {
+	width: 100px;
+	height: 100px;	
+}

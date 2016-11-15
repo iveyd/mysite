@@ -1,0 +1,67 @@
+/* I wanted to keep a bit of space between the edge
+of the browser and border so I put th margin to 10px*/
+body {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  font-family: "Times New Roman", times, sans-serif;
+}
+/* the divs have content centered and display in blocks */
+div {
+  text-align:center;
+  display: inline-block;
+  width: 250px;
+  height: 700px;
+}
+h3 {
+  margin-bottom: 0;
+  font-size: 120%;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+ul { /* general */
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+li {
+  height: 100px;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* I found it best to just make a seoerate ID for each column */
+
+#songtitles {
+  font-variant: small-caps;
+  color: green;
+}
+#artists {
+  font-size: 120%;
+  font-weight: bold;
+}
+#album {
+  font-style: italic;
+}
+#date {
+  font-size: 80%;
+}
+#genre {
+  font-size: 80%;
+}
+/* This was tricky */
+#genre li::before {
+  content: "-";
+}
+#covers {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}

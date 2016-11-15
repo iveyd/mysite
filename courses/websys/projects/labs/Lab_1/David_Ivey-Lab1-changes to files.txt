@@ -1,0 +1,16 @@
+Changes made to host file:
+
+127.0.0.1 lab1.websys
+
+Changes made to httpd-vhosts.conf file:
+
+NameVirtualHost *:80
+
+<VirtualHost 127.0.0.1:80>
+  ServerName lab1.websys
+  DocumentRoot "C:\Users\David Ivey\Google Drive\websys\lab1"
+</VirtualHost>
+
+<Directory "C:\Users\David Ivey\Google Drive\websys">
+  Require all granted
+</Directory>

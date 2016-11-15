@@ -1,0 +1,65 @@
+{
+	"Songs":[
+
+		{
+			"title":"The Sound",
+			"artist":"The 1975",
+			"album":"I Like It When You Sleep, For You Are So Beautiful Yet So Unaware of It",
+			"coverart":"http://cps-static.rovicorp.com/3/JPG_500/MI0003/996/MI0003996968.jpg?partner=allrovi.com",
+			"date":"2016",
+			"site":"http://www.allmusic.com/album/i-like-it-when-you-sleep-for-you-are-so-beautiful-yet-so-unaware-of-it-mw0002906304",
+			"genres":["Pop","Rock"]
+		},
+
+		{
+			"title":"Don't Threaten Me With A Good Time",
+			"artist":"Panic! At the Disco",
+			"album":"Death of a Bachelor",
+			"coverart":"http://cps-static.rovicorp.com/3/JPG_500/MI0003/973/MI0003973324.jpg?partner=allrovi.com",
+			"date":"2016",
+			"site":"http://www.allmusic.com/album/death-of-a-bachelor-mw0002891900",
+			"genres":["Pop","Rock"]
+		},
+
+		{
+			"title":"Follow You",
+			"artist":"Bring Me the Horizon",
+			"album":"That's the Spirit",
+			"coverart":"http://hwcdn.allmusic.com/release-covers/400/0004/443/0004443063.jpg",
+			"date":"2015",
+			"site":"http://www.allmusic.com/album/thats-the-spirit-mw0002865734",
+			"genres":["Pop","Rock"]
+		},
+
+		{
+			"title":"Heathens",
+			"artist":"Twenty One Pilots",
+			"album":"Suicide Squad Soundtrack",
+			"coverart":"http://cps-static.rovicorp.com/3/JPG_500/MI0004/078/MI0004078517.jpg?partner=allrovi.com",
+			"date":"2016",
+			"site":"http://www.allmusic.com/album/heathens-mw0002956946",
+			"genres":["Pop","Rock"]
+		},
+
+		{
+			"title":"Hallelujah",
+			"artist":"Jeff Buckley",
+			"album":"Grace",
+			"coverart":"http://hwcdn.allmusic.com/release-covers/500/0000/146/0000146568.jpg",
+			"date":"1995",
+			"site":"http://www.allmusic.com/album/grace-mw0000624110",
+			"genres":["Pop","Rock"]
+		},
+
+		{
+			"title":"Don't Fear the Reaper",
+			"artist":"Blue Oyster Cult",
+			"album":"Agents of Fortune",
+			"coverart":"http://hwcdn.allmusic.com/release-covers/400/0001/242/0001242869.jpg",
+			"date":"1976",
+			"site":"http://www.allmusic.com/album/agents-of-fortune-mw0000599232",
+			"genres":["Pop","Rock"]
+		}
+	
+	]
+}

@@ -1,0 +1,43 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", times, sans-serif;
+}
+div {
+    /*height: 5em;*/
+    float: left;
+}
+ul { /* general */
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle;
+}
+li {
+  width: 175px;
+  height:100px;
+  padding-bottom: 0.1em;
+  margin: auto;
+}
+li.header {
+  height: 50px;
+  margin: 1em;
+  font-size: 1.4em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+li.covers {
+  height: 50px;
+  margin: 1em 1em .1em 1em;
+  font-size: 1.4em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+li.Artist {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
