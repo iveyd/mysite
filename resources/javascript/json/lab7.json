@@ -1,0 +1,44 @@
+{
+    "labs": [
+        {
+            "name": "Lab 1",
+            "descr": "Basic usage of network protocols.",
+            "link": "#labs"
+        },
+        {
+            "name": "Lab 2",
+            "descr": "Create an html version of your resume.",
+            "link": "../resources/misc/resume.html"
+        },
+        {
+            "name": "Lab 3",
+            "descr": "Create a website for your coursework.",
+            "link": "#"
+        },
+        {
+            "name": "Lab 4",
+            "descr": "Create an RSS and Atom Blog feed",
+            "link": "blogs/blogs.html"
+        },
+        {
+            "name": "Lab 5",
+            "descr": "Javascript form interaction.",
+            "link": "projects/Labs/Lab_5-10_17_2016/lab5.html"
+        },
+        {
+            "name": "Lab 6",
+            "descr": "Working with jQuery.",
+            "link": "projects/Labs/Lab_6-10_24_2016/lab6.html"
+        },
+        {
+            "name": "Lab 7",
+            "descr": "Working with JSON.",
+            "link": "#labs"
+        },
+        {
+            "name": "Lab 8",
+            "descr": "Using css to style a page provided by css zen garden.",
+            "link": "projects/Labs/Lab_8-11_03_2016/lab8/lab8.html"
+        }
+    ]
+}

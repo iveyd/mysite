@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+	<Homework>
+		<Assignment_1>
+			<name>Homework 1</name>
+			<link>../../resources/misc/resume.html</link>
+			<descr>Create a resume using html.</descr>
+		</Assignment_1>
+		<Assignment_2>
+			<name>Homework 2</name>
+			<link>resources/misc/resume.html</link>
+			<descr>Hexxed jQuery Color matching game. Done together with team 2.</descr>
+		</Assignment_2>
+	</Homework>
+	<Labs>
+		<Lab_1>
+			<name>Lab 1</name>
+			<link>#labs</link>
+			<descr>Changing vhost files to allow for multiple virtual hosts.</descr>
+		</Lab_1>
+		<Lab_2>
+			<name>Lab 2</name>
+			<link>projects/labs/Lab_2</link>
+			<descr>Create a list of favorite songs and add styling using html and css.</descr>
+		</Lab_2>
+		<Lab_3>
+			<name>Lab 3</name>
+			<link>projects/labs/Lab_3/lab3.html</link>
+			<descr>Printing the DOM structure of the HTML and CSS munipulation.</descr>
+		</Lab_3>
+		<Lab_4>
+			<name>Lab 4</name>
+			<link>projects/labs/Lab_4/lab4start.html</link>
+			<descr>Populate an HTML page with JSON using AJAX/JQUERY.</descr>
+		</Lab_4>
+		<Lab_5>
+			<name>Lab 5</name>
+			<link>projects/labs/Lab_5/lab5start.html</link>
+			<descr>Script optimization using jQuery.</descr>
+		</Lab_5>
+		<Lab_6>
+			<name>Lab 6</name>
+			<link>projects/Labs/Lab_6-10_24_2016/lab6.html</link>
+			<descr>PHP Calculator</descr>
+		</Lab_6>
+		<Lab_7>
+			<name>Lab 7</name>
+			<link>#labs</link>
+			<descr>Redesign my peronal website</descr>
+		</Lab_7>
+		<Lab_8>
+			<name>Lab 8</name>
+			<link>projects/Labs/Lab_8/websyslab8.txt</link>
+			<descr>Working with PHPMyAdmin and MySQL.</descr>
+		</Lab_8>
+		<Lab_9>
+			<name>Lab 9</name>
+			<link>projects/Labs/Lab_9/install.php</link>
+			<descr>Working with PHP and SQL using PDO.</descr>
+		</Lab_9>
+		<Lab_10>
+			<name>Lab 10</name>
+			<link>#labs</link>
+			<descr>Lorem Ipsum</descr>
+		</Lab_10>
+	</Labs>
+</website>

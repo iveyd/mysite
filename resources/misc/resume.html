@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+    <title>David Ivey</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <style type="text/css">
+
+      body {
+        font-family: "Times New Roman", Georgia, Serif;
+        background-color: #f6fbfc; /* very light blue */
+        height: 11in;
+        width: 8.5in;
+      }
+
+      h1 {
+        float: left;
+        clear: both;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        font-size: 3.5em;
+      }
+      h2 {
+        clear: left;
+        color: blue;
+        margin: 1.2em 50em .5em 0;
+        padding: 0;
+        font-size: 1.2em;
+        white-space: nowrap;
+      }
+      img {
+        border-radius: 15px 15px 15px 15px; /* rounds out the courners of the image */
+        margin: .75em 0 0 11em;
+      }
+      /* standard css for links */
+      a:link {
+        color: blue;
+      }
+      a:visited {
+        color: purple;
+      }
+
+ /* used to keep the content centered on the page */
+      #CenterPage {
+        width: 45em;
+        height: 60em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /*floats the contact info to the right of the page*/
+      #contactInfo {
+        float: right;
+        text-align: left;
+        margin: .75em 5.75em 0 0;
+        padding: 0;
+        font-size: .8em;
+      }
+
+      /* majority of content, makes sure it is not
+      floating so that the content in the description
+      will be forced to wrap by the floating column on
+      on the right. */
+      #ExperienceInfo {
+        padding: 0;
+        margin: 0;
+        clear: left;
+        text-align: justify;
+      }
+      #ExperienceInfo li {
+        list-style: none;
+        margin: 0;
+      }
+
+      #EducationFormat {
+        margin-top: 1.3em;
+      }
+
+      /* this is the column on the right side*/
+      #SkillsCourses {
+        padding:0;
+        margin: 0;
+        width: 17em; /* makes sure that the content is on the screen */
+        float: right;
+        clear: right;
+        text-align: left;
+        font-size: .85em;
+      }
+      #SkillsCourses li {
+        list-style: none;
+        font-weight:bold;
+        text-align: left;
+        margin: .5em 0 0 0;
+      }
+      /* header adopted the size from SkillsCourses
+      so I added this to fix that */
+      h2#SkillsCourses li{
+        margin 0;
+        font-size: 1.2em;
+      }
+
+      #projects {
+        line-height: 1.5em /*spread out the content a bit to look better*/
+      }
+      #projects li {
+        font-style: normal;
+        font-weight: normal; /* prevented all of the content from being bold */
+        text-align: justify;
+        list-style: none;
+        margin: 0 0 1em 0;
+      }
+
+      #titleBar {
+        margin-bottom: .5em;
+        border-bottom: 2px solid #000000;
+      }
+
+      /* this is the header for each experience bullet */
+      .CredentialStyle {
+        clear: left;
+        padding: 0;
+        margin:  0;
+        text-align: justify;
+      }
+      /* this is the body for each experience bullet */
+      .CredentialDesc {
+        clear: left;
+        margin: .5em 0 1.5em 0;
+        line-height: 1.6em;
+        color: grey;
+        font-size: .9em;
+        font-style: normal;
+        text-align: justify;
+      }
+
+      .soft { /*styling*/
+        clear: left;
+        margin: -1em 0 0 0; /* had issues getting the title line to be where I wanted, -1 fixed that */
+        color: grey;
+        font-size: .8em;
+        font-style: normal;
+      }
+
+    </style>
+
+  </head>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+  <body id="CenterPage">
+    <!-- microformats -->
+    <section class="vcard">
+
+      <h1 class="fn">David Ivey</h1>
+
+      <p id="contactInfo", class="adr">
+        <!-- spans are only used to seperate the different microformat tags -->
+        <span class="street-address">
+          402 North Hall
+          <br/>
+          1999 Burdett Ave
+        </span>
+        <br/>
+          <span class="locality">Troy</span>,
+          <span class="region">New York</span>
+          <span class="postal-code">12180</span>
+        <br/>
+        <span class="tel">(518) 810-2083</span>
+        <br/>
+        <span class="email">
+          <strong>
+            <a href="mailto:iveyd@rpi.edu?Subject=Full%20Time%20Position%20Offer" target="_top">
+              iveyd@rpi.edu
+            </a>
+          </strong>
+        </span>
+      </p>
+
+      <img
+        src="https://www.gravatar.com/avatar/f6e7863fcd28f74021aba96bd09cbf71?s=70.jpg",
+        alt="Gravatar",
+        class="photo"
+      />
+
+      <p id="titleBar", class="soft", class="title">
+        Senior Information Technology and Web Science Student
+      </p>
+
+    </section>
+
+    <aside id="SkillsCourses">
+      <!-- column on the right of the page -->
+      <ul>
+        <!-- the header is in the list so that it could be formated with the rest of the column -->
+        <li><h2>Skills</h2></li>
+        <li>IOS Development</li>
+        <li>Android Development</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>HTML/CSS</li>
+        <li>PHP</li>
+        <li>C/C++</li>
+        <li>Ruby on Rails</li>
+        <li>Cisco Networking</li>
+
+      </ul>
+
+      <ul>
+        <!-- the header is in the list so that it could be formated with the rest of the column -->
+        <li><h2>Relevant Courses</h2></li>
+        <li>Rensselaer Center for Open Source</li>
+        <li>Web Systems Development</li>
+        <li>Information Technology and Web Science Capstone</li>
+        <li>Data Structures</li>
+        <li>Managing Information Technology Resources</li>
+        <li>Introduction to Algorithms</li>
+        <li>Foundations of Computer Science</li>
+        <li>Networking Laboratory I</li>
+        <li>Operating Systems</li>
+        <li>Database Systems</li>
+        <li>Introduction to Information Technology and Web Science</li>
+
+      </ul>
+
+      <ul id="projects">
+
+        <li><h2>Projects</h2></li>
+        <li><strong>Swolemon</strong> is the gamification of fitness. Train
+          your body to train your virtual pet and take on any challenger that
+          comes your way<br/>
+          <strong>Android Developer</strong></li>
+
+          <li><strong>RPI Tours</strong> is an IOS and Android application that
+            allows users to take smartphone guided tours around the RPI campus<br/>
+            <strong>IOS/Android Developer</strong></li>
+
+      </ul>
+
+  </aside>
+
+    <section>
+
+      <h2 id="EducationFormat">Education</h2>
+
+        <p class="CredentialStyle">
+          <strong><a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a></strong>, Troy, NY - B.S. <em>Information Technology and Web Science</em><br/>
+          <em class="soft">Expected Graduation: May 2017</em>
+        </p>
+        <br/>
+        <p class="CredentialStyle">
+          <strong><a href="http://www.bscsd.org/index.cfm">BallstonSpa High School</a></strong>, Ballston Spa, NY<br/>
+          <em class="soft">September 2009 - June 2013</em>
+        </p>
+
+    </section>
+
+    <section>
+
+      <h2>Experience</h2>
+
+      <ul id="ExperienceInfo">
+
+        <li>
+
+          <p class="CredentialStyle">
+            <strong><a href="http://www.dayautomation.com/">Day Automation</a></strong>, Victor, NY - <em> Software Engineering Intern </em><br/>
+            <em class="soft">May 2016 - August 2016</em>
+          </p>
+
+          <p class="CredentialDesc">
+            Day Automation is a physical security and HVAC company based in the Rochester area.
+            During my time at Day Automation, I was able to work with industry standard
+            physical security products as well as IP Phone management software.
+            I was also able to leverage and increase my knowledge in mobile development
+            and web technologies.
+          </p>
+
+        </li>
+
+        <li>
+          <p class="CredentialStyle">
+            <strong><a href="http://www.annese.com/">Annese and Associates</a></strong>, Clifton Park, NY - <em> Service Intern </em><br/>
+            <em class="soft">May 2015 - August 2015</em>
+          </p>
+
+          <p class="CredentialDesc">
+            Annese and Associates is a Computer Networking company based in the Albany area.
+            Being that Annese and Associates is a Cisco Certified Gold Partner, I was able
+            to work hands on with the latest Cisco networking equipment on a daily basis as
+            well as obtain significant experience with both the physical implementation of
+            the devices as well as experience with the Command Line Interface
+          </p>
+
+        </li>
+
+        <li>
+          <p class="CredentialStyle">
+            <strong><a href="http://reslife.rpi.edu/update.do?artcenterkey=868">RPI Residdence Life</a></strong>, Troy, NY - <em> Resident Assistant </em><br/>
+            <em class="soft">August 2016 - Present</em>
+          </p>
+
+          <p class="CredentialDesc">
+            As a Resident Assistant, I facilitate positive growth and interaction among my
+            residents outside of the classroom. I organize events to engage the residents as
+            well as provide outlets for social, spiritual, and personal advancement as well as
+            Unity and acceptance among their peers.
+          </p>
+
+        </li>
+
+        <li>
+
+          <p class="CredentialStyle">
+            <strong><a href="http://asigphi.org/#/home">Alpha Sigma Phi</a></strong>, Troy, NY - <em> Chapter President </em><br/>
+            <em class="soft">December 2014 - December 2015</em>
+          </p>
+
+          <p class="CredentialDesc">
+            As The President of the Beta Psi Chapter of Alpha Sigma Phi, I led a 15+ sized organization
+            in holding philanthropy events, fundraising, and community outreach. I have written and presented
+            legislature. I oversaw a weekly chapter meeting and lead recruitment efforts. As well as frequently
+            corresponding with RPI and Alpha Sigma Phi National Headquarters. This has also given me the
+            opportunity to attend multiple conventions that provided me with the tools to be an effective leader.
+          </p>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+  </body>
+
+</html>
